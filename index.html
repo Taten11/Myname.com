@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="menu">
+        <button id="playWithAI">Play with AI</button>
+        <button id="playOnline">Play Online</button>
+    </div>
+    <div id="gameArea" style="display: none;">
+        <h2 id="gameTitle"></h2>
+        <div id="gameBoard" class="game-board"></div>
+        <div id="status"></div>
+        <button id="restartGame" style="display: none;">Restart Game</button>
+    </div>
+    <div id="onlineMenu" style="display: none;">
+        <input type="text" id="gameIdInput" placeholder="Enter Game ID to Join">
+        <button id="createGame">Create Game</button>
+        <button id="joinGame">Join Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
